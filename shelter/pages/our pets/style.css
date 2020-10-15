@@ -1,12 +1,12 @@
 @font-face {
     font-family: "arialItalic";
-    src: url(//../assets/font/Arial\ Italic.ttf);
+    src: url(../../assets/font/Arial\ Italic.ttf);
     font-family: "arial";
-    src: url(//..//assets/font/ofont.ru_Arial.ttf);
+    src: url(../../assets/font/ofont.ru_Arial.ttf);
     font-family: "georgiaItalic";
-    src: url(//..//assets/font/georgia\ italic.ttf);
+    src: url(../../assets/font/georgia\ italic.ttf);
     font-family: "georgia";
-    src: url(//..//assets/font/Georgia\ Regular\ font.ttf);
+    src: url(../../assets/font/Georgia\ Regular\ font.ttf);
 }
 
 body {
@@ -18,14 +18,16 @@ body {
 }
 
 header {
-    position: static;
+    width: 1280px;
+    position: fixed;
+    background-color: #fff;
     height: 120px;
+    
     display: flex;
 }
 
 header>h1 {
     font-family: 'georgia';
-
     height: 35px;
     font-style: normal;
     font-weight: normal;
@@ -48,6 +50,7 @@ header>h1>span {
     color: #292929;
     letter-spacing: 0.1em;
 
+     
     height: 15px;
 
 }
@@ -96,6 +99,7 @@ header>ul>li {
 .our-friends {
     width: 1280px;
     height: 1342px;
+    padding: 120px 0 0 0;
     background: #F6F6F6;
 }
 
@@ -106,6 +110,7 @@ header>ul>li {
     font-family: 'georgia';
     margin: 0 auto;
     padding: 0 0 0 0;
+    color: #545454;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.06em;
@@ -368,4 +373,407 @@ footer {
     width: 300px;
     margin: 39px 0 0 182px;
     height: 315px;
+}
+@media(max-width:1280px){
+    body {
+        width: 770px;
+    }
+    
+    * {
+        margin: 0;
+    }
+    header{
+        
+        width:770px;
+        position: fixed;
+        z-index: 1;
+        
+    }
+    header>h1 {
+       
+        margin: 30px 0px 0 30px;
+       
+    }
+    
+    header>h1>span {
+      
+        margin: 10px 0 0 4px;
+       
+    
+    }
+    
+    header>ul {
+       
+        margin: 46px 0 0 39px;
+    }
+    
+    header>ul>li {
+        margin: 0 35px 0 0;
+    }
+    
+
+    
+    
+    .secon-list {
+        padding: 0 0 5px 0;
+     
+    }
+    .our-friends {
+        width: 770px;
+        height: 1742px;
+        padding: 120px 0 0 0;
+        background: #F6F6F6;
+    }
+    
+  
+    
+    .list-photo {
+        list-style-type: none;
+        display: flex;
+        margin: 8px 0 0 20px;
+    }
+    
+    .item_responsive1 {
+        POSITION: ABSOLUTE;
+        margin: 487px 0 0 34px;
+    } 
+    .item_responsive2 {
+        POSITION: ABSOLUTE;
+        margin: 487px 0 0 344px;
+    }
+    .item_responsive3 {
+        POSITION: ABSOLUTE;
+        margin: 485px 0 0 88px;
+    }
+    .item_responsive4 {
+        POSITION: ABSOLUTE;
+        margin: 485px 0 0 397px;
+    }
+    .item_responsive5 {
+        visibility: hidden;
+        POSITION: ABSOLUTE;
+        margin: 485px 0 0 397px;
+    }
+    
+    
+    
+    
+    
+   
+  
+   
+   
+    .list2{
+        margin: 9px 0 0 -33px;
+    }
+
+    .next{
+        display: flex;
+        list-style-type: none;
+        margin: 506px 0 0 173px;
+    
+    }
+ 
+  .next>li{
+    margin: 5px 20px 0px 0px;
+  }
+    
+
+    
+    .last-page {
+        display: flex;
+        width: 760px;
+        margin: 0 auto;
+        height: 639px;
+        padding: 0 70px 0 0;
+    }
+    
+    .footer-list {
+        width: 278px;
+        height: 234px;
+        margin: 31px 0 0 23px;
+        list-style-type: none;
+    }
+    
+ 
+  
+    .footer-item2>p{
+        margin: 46px 0 0 60px;
+        
+    }
+    .icon1{
+        position: absolute;
+    
+        margin: 41px 0 0 0px;
+    
+    }
+  
+    .footer-item3>p{
+        margin: 51px 0 0 60px;
+        
+    }
+    .icon2{
+        position: absolute;
+        margin: 41px 0 0 0px;
+    
+    }
+    .footer-list2 {
+        width: 278px;
+        height: 234px;
+        margin: 33px 0px 0px 23px;
+        list-style-type: none;
+    }
+    .h{
+        position: absolute;
+        width: 317px;
+        height: 46px;
+        margin: -14px 0 0 -19px;
+    }
+    .icon3{
+        position: absolute;
+        margin: 41px 0 0 0px;
+    
+    }
+    .footer-position{
+        margin: 51px 0 0 18px;
+    }
+    .icon4{
+        position: absolute;
+        margin: 108px 0 0 -1px;
+    
+    }
+    .m>p{
+        margin: 114px 0 0 41px
+    }
+    .footer-pupy{
+        background-image:url(../../assets/footer-puppy.png);
+        display: block;
+        width: 300px;
+        position: absolute;
+        margin: 325px 0 0 233px;
+        height: 315px;
+    }
+}
+@media(max-width:772PX){
+    body {
+        width: 322px;
+    }
+    
+    * {
+        margin: 0;
+    }
+    header{
+        width: 322px;
+        background-color:#fff;
+        position: fixed;
+        
+        z-index: 1;
+        
+    }
+    header>ul{
+        visibility: hidden;
+        width: 0;
+        margin: 0 0 0 0;
+    }
+    header>h1 {
+       
+        margin: 30px 0px 0 10px;
+       
+    }
+    
+    header>h1>span { 
+        margin: 10px 0 0 4px;
+    }
+    
+    .responsive_burger{
+        background-image:url(../../assets/Burger.png);
+        display: block;
+        width: 30px;
+        height: 22px;
+        margin: 49px 0 0 43px;
+    }
+    
+   
+    
+
+    
+    
+    .secon-list {
+        padding: 0 0 5px 0;
+     
+    }
+    .our-friends {
+        width: 322px;
+        height: 1649px;
+        padding: 120px 0 0 0;
+        background: #F6F6F6;
+    }
+    .our-friends>h1{
+        margin: -38px 0 0 10px;
+        width: 300px;
+        height: 64px;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 130%;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+  
+     .katrina-block{
+
+        margin: 42px 0px 0 -37px;
+
+     }
+     .janifer-block{
+        position: absolute;
+        margin: 506px 6px 0 -36px;
+     }
+    .list-photo {
+        list-style-type: none;
+        display: flex;
+        margin: 0px 0 0 22px;
+    }
+    
+    .item_responsive1 {
+        POSITION: ABSOLUTE;
+        margin: 972px 0 0 -36px;
+    } 
+    .item_responsive2 {
+        POSITION: ABSOLUTE;
+        margin: 487px 0 0 344px;  visibility: hidden;
+    }
+    .item_responsive3 {
+        POSITION: ABSOLUTE;
+        margin: 485px 0 0 88px;  visibility: hidden;
+    }
+    .item_responsive4 {
+        POSITION: ABSOLUTE;
+        visibility: hidden;
+        margin: 485px 0 0 397px;
+    }
+    .item_responsive5 {
+        visibility: hidden;
+        POSITION: ABSOLUTE;
+        margin: 485px 0 0 397px;
+    }
+    
+    
+    
+    
+    
+   
+  
+   
+   
+    .list2{
+        margin: 9px 0 0 -33px;
+    }
+
+    .next{
+        display: flex;
+        list-style-type: none;
+        margin: 503px 0 0 -29px;
+    
+    }
+    .next>li{
+        margin: 5px 10px 0px 0px
+    }
+  
+   
+    
+     footer{
+        margin: -1px 0 0 0;
+        height: 809px;
+     }
+    
+    .last-page {
+        display: flex;
+        width: 760px;
+        margin: 0 auto;
+        height: 639px;
+        padding: 0 70px 0 0;
+    }
+    
+    .footer-list {
+        width: 278px;
+        height: 234px;
+        margin: 31px 0 0 -19px;
+        list-style-type: none;
+    }
+    
+ 
+  .footer-item1{
+    width: 278px;
+    height: 64px;
+    font-size: 25px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.06em;
+  }
+    .footer-item2>p{
+        margin: 46px 0 0 60px;
+        
+    }
+    .icon1{
+        position: absolute;
+    
+        margin: 41px 0 0 0px;
+    
+    }
+  
+    .footer-item3>p{
+        margin: 46px 0 0 62px;
+        
+    }
+    
+    .footer-item2{
+        margin: -2px 0px 0 13px;
+    }
+    .footer-item3{
+        margin: 16px 0 0 -11px;
+    }
+    .icon2{
+        position: absolute;
+        margin: 41px 0 0 0px;
+    
+    }
+    .footer-list2 {
+        position: absolute;
+        width: 278px;
+        height: 234px;
+        margin: 279px 0px 0px -19px;
+        list-style-type: none;
+    }
+    .h{
+        position: absolute;
+        width: 317px;
+        height: 46px;
+        margin: -4px 0 0 -29px;
+    }
+    .icon3{
+        position: absolute;
+        margin: 41px 0 0 0px;
+    
+    }
+    .footer-position{
+        margin: 51px 0 0 18px;
+    }
+    .icon4{
+        position: absolute;
+        margin: 108px 0 0 -1px;
+    
+    }
+    .m>p{
+        margin: 114px 0 0 41px
+    }
+    .footer-pupy{
+        background-image:url(../../assets/footer-puppy.png);
+        display: block;
+        width: 300px;
+        position: absolute;
+        margin: 516px 0 0 10px;
+        height: 315px;
+        transform: scale(0.86);
+    }
 }
