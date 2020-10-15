@@ -2,11 +2,11 @@
     font-family: "arialItalic";
     src: url(//../assets/font/Arial\ Italic.ttf);
     font-family: "arial";
-    src: url(//..//assets/font/ofont.ru_Arial.ttf);
+    src: url(shelter/assets/font/ofont.ru_Arial.ttf);
     font-family: "georgiaItalic";
     src: url(//..//assets/font/georgia\ italic.ttf);
     font-family: "georgia";
-    src: url(//..//assets/font/Georgia\ Regular\ font.ttf);
+    src: url(shelter/assets/font/Georgia\ Regular\ font.ttf);
 }
 
 * {
@@ -19,7 +19,7 @@ body {
    
 }
 .a{
-    background: url("../../assets/noise_transparent@2x.png"),
+    background: url("shelter/assets/noise_transparent@2x.png"),
     radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 .page1 {
@@ -100,7 +100,7 @@ header {
 }
 
 .puppy {
-    background-image: url("../../assets/start-screen-puppy.png");
+    background-image: url("shelter/assets/start-screen-puppy.png");
     width: 698px;
     background-repeat: no-repeat;
     display: block;
@@ -163,7 +163,7 @@ header {
 }
 
 .cat-dog {
-    background-image: url(../../assets/about-pets.png);
+    background-image: url(shelter/assets/about-pets.png);
     display: block;
     width: 300px;
     height: 408px;
@@ -276,7 +276,7 @@ header {
 }
 
 .first-animal {
-    background-image: url(../../assets/cat.png);
+    background-image: url(shelter/assets/cat.png);
     display: block;
     position: absolute;
     margin: 30px 0px 0 34px;
@@ -286,7 +286,7 @@ header {
 }
 
 .second-animal {
-    background-image: url(../../assets/white-dog.png);
+    background-image: url(shelter/assets/white-dog.png);
     display: block;
     position: absolute;
     margin: 30px 0px 0 34px;
@@ -296,7 +296,7 @@ header {
 }
 
 .third-animal {
-    background-image: url(../../assets/yellow-dog.png);
+    background-image: url(shelter/assets/yellow-dog.png);
     display: block;
     position: absolute;
     margin: 30px 0px 0 34px;
@@ -499,7 +499,7 @@ header {
     height: 464px; margin: 0 auto;
 }
 .dog-addition {
-    background-image: url(../../assets/donation-dog.png);
+    background-image: url(shelter/assets/donation-dog.png);
     width: 505px;
     height: 261px;
     display: block;
@@ -594,7 +594,7 @@ header {
 }
 
 footer {
-    background: url(../../assets/noise_transparent@2x.png),
+    background: url(shelter/assets/noise_transparent@2x.png),
     radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     
     
@@ -702,7 +702,7 @@ footer {
     margin: 114px 0 0 41px
 }
 .footer-pupy{
-    background-image:url(../../assets/footer-puppy.png);
+    background-image:url(shelter/assets/footer-puppy.png);
     display: block;
     width: 300px;
     margin: 39px 0 0 182px;
@@ -710,7 +710,7 @@ footer {
 }
 @media(max-width:1280px){
     .a{
-        background: url("../../assets/noise_transparent@2x.png"),
+        background: url("shelter/assets/noise_transparent@2x.png"),
         radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
         width: 770px;
         height: 1165px;
@@ -781,7 +781,7 @@ footer {
     
     .cat-dog {
         position: absolute;
-        background-image: url(../../assets/about-pets.png);
+        background-image: url(shelter/assets/about-pets.png);
         display: block;
         width: 300px;
         height: 408px;
@@ -877,7 +877,7 @@ footer {
         }
         
         .first-animal {
-            background-image: url(../../assets/cat.png);
+            background-image: url(shelter/assets/cat.png);
             display: block;
             position: absolute;
             margin: 28px 0px 0 42px;
@@ -887,7 +887,7 @@ footer {
         }
         
         .second-animal {
-            background-image: url(../../assets/white-dog.png);
+            background-image: url(shelter/assets/white-dog.png);
             display: block;
             position: absolute;
             margin: 37px 0px 0 43px;
@@ -897,7 +897,7 @@ footer {
         }
         
         .third-animal {
-            background-image: url(../../assets/yellow-dog.png);
+            background-image: url(shelter/assets/yellow-dog.png);
             display: block;
             position: absolute;
             margin: 37px 0px 0 43px;
@@ -1091,7 +1091,7 @@ footer {
         }
         .dog-addition {
             position: absolute;
-            background-image: url(../../assets/donation-dog.png);
+            background-image: url(shelter/assets/donation-dog.png);
             width: 505px;
             height: 261px;
             display: block;
@@ -1108,7 +1108,7 @@ footer {
             
     margin: -4px 0 0 0;
             height: 639px;
-            background: url(../../assets/noise_transparent@2x.png),
+            background: url(shelter/assets/noise_transparent@2x.png),
             radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
             
             
@@ -1144,7 +1144,7 @@ footer {
      
       
         .footer-pupy{
-            background-image:url(../../assets/footer-puppy.png);
+            background-image:url(shelter/assets/footer-puppy.png);
             display: block;
             width: 300px;
             margin: 322px 0 0 -108px;
@@ -1161,7 +1161,7 @@ footer {
     }
     .burger-main{
         position: absolute;
-        background-image:url(../../assets/Burger-main.png);
+        background-image:url(shelter/assets/Burger-main.png);
         display: block;
         width: 30px;
         height: 32px;
@@ -1230,7 +1230,7 @@ margin: -2px 0px 0 -121px;
     
     .cat-dog {
         position: absolute;
-        background-image: url(../../assets/about-pets.png);
+        background-image: url(shelter/assets/about-pets.png);
         display: block;
         width: 300px;
         height: 408px;
@@ -1321,7 +1321,7 @@ margin: 9px 0px 27px -9px;
         
       
         .first-animal {
-            background-image: url(../../assets/cat.png);
+            background-image: url(shelter/assets/cat.png);
             display: block;
             position: absolute;
             margin: 28px 0px 0 42px;
@@ -1331,7 +1331,7 @@ margin: 9px 0px 27px -9px;
         }
         
         .second-animal {
-            background-image: url(../../assets/white-dog.png);
+            background-image: url(shelter/assets/white-dog.png);
             display: block;
             position: absolute;
             margin: 37px 0px 0 43px;
@@ -1341,7 +1341,7 @@ margin: 9px 0px 27px -9px;
         }
         
         .third-animal {
-            background-image: url(../../assets/yellow-dog.png);
+            background-image: url(shelter/assets/yellow-dog.png);
             display: block;
             position: absolute;
             margin: 37px 0px 0 43px;
@@ -1515,7 +1515,7 @@ margin: 9px 0px 27px -9px;
         }
         .dog-addition {
             position: absolute;
-            background-image: url(../../assets/donation-dog.png);
+            background-image: url(shelter/assets/donation-dog.png);
             width: 505px;
             height: 261px;
             display: block;
@@ -1557,7 +1557,7 @@ margin: 9px 0px 27px -9px;
         footer {
             width: 322px;
             height: 809px;
-            background: url(../../assets/noise_transparent@2x.png),
+            background: url(shelter/assets/noise_transparent@2x.png),
             radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
             
             
@@ -1609,7 +1609,7 @@ margin: 9px 0px 27px -9px;
      }
       
         .footer-pupy{
-            background-image:url(../../assets/footer-puppy.png);
+            background-image:url(shelter/assets/footer-puppy.png);
             display: block;
             width: 300px;
             margin: 322px 0 0 -108px;
